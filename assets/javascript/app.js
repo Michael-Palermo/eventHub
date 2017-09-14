@@ -192,7 +192,7 @@ $(document).ready(function()
 						console.log(events);
 							}
 
-				$("#events").append(events);
+				$("#events").html(events);
 		
            	})
 	        .fail(function(error){
