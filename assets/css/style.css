@@ -1,0 +1,135 @@
+body{
+	background-color:#4e968b;
+}
+
+nav{
+    border-radius: 5px;
+    text-shadow: .25px .25px black;
+    opacity: .95;
+    font-family: 'Open Sans', sans-serif;
+    border-style:;
+}
+
+h2{
+    font-family: 'Tauri', sans-serif;
+    color:white;
+    text-shadow: 1px 1px  #1E3C38;
+    font-size: 24px;
+    opacity:.96;
+    }
+
+img {
+    max-width: 30%;
+    height: auto;
+}
+
+table{
+    border-radius: 25px;
+    border-color: transparent;
+    border-style: solid;
+    opacity:.95;
+}
+
+.jumbotron{
+    background-color: #206057;
+    width: 100%;
+    color: #FFAB00;
+    border-radius: 5px;
+    
+}
+
+.display-3{
+    font-family: 'Tauri', sans-serif;
+    text-shadow: 2px 2px  #1E3C38;
+}
+
+.img {
+    max-width: 30%;
+    height: auto;
+}
+
+.container{
+    color: white;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 18px;
+    width: 100%;
+    background-color:grey;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 12px;
+}
+
+.item {
+    width: 120px;
+    min-height: 120px;
+    max-height: auto;
+    float: left;
+    margin: 3px;
+    padding: 3px; 
+}
+
+.jumbotron-1{
+    position: center;
+    background-color: #206057;
+    color: black;
+
+    
+}
+
+#map-canvas {
+	height:250px; margin:0; padding:0; width: 100%;
+	background-color: white;
+	z-index: 0;
+    box-shadow: 1px 1px black;
+    border-style: solid;
+    border-color:transparent;
+}
+	
+#search {
+    position: relative; 
+    z-index: 1; /* The z-index should be higher than Google Maps */
+    width: 200px;
+    height: auto;
+    opacity: .8;
+    color: black;
+}
+
+#recent-search{
+    opacity: .8;
+    font-family: 'Source Serif Pro', serif;
+}
+
+#weather {
+    font-size: 24px;
+    height:250px; margin:0; padding:0; width: 100%;
+    background-color: white;
+    box-shadow: 1px 1px black;
+    border-style: solid;
+    border-color:transparent;
+    opacity: .85;
+    font-weight: lighter;
+    font-family: 'Source Serif Pro', serif;
+    text-shadow: 1px 1px #4e968b;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#events{
+    font-family: 'Tauri', sans-serif;
+    font-size: 28px;
+    text-shadow: 1px 1px black;
+    border-radius: 20px;
+    border-color: transparent;
+    border-style: solid;
+    opacity:.95;
+}
+
+
+
+
