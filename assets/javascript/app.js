@@ -188,7 +188,7 @@ $(document).ready(function()
 						//create variable for link to event
 						var url = response.events.event[i].venue_url;
 						var urlCall = $("<a href=url target='_blank'><p>").html("Event Link: Click Here" + '<br>');
-					    events.append(urlCall);
+					    events.html(urlCall);
 						console.log(events);
 							}
 
