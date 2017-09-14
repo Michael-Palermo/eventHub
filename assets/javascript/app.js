@@ -75,7 +75,7 @@ $(document).ready(function()
         
         console.log(city);
         // API call for the weather
-		var weatherURL = "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=ad2049df345f2733661921d3ca7a05f5";
+		var weatherURL = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=ad2049df345f2733661921d3ca7a05f5";
         
         // Performing our AJAX GET request
 	    $.ajax({
