@@ -209,7 +209,7 @@ $(document).ready(function()
      	// clean TIMESTAMP server value using moment.js
     	var cleanTime = moment(childSnapshot.val().dateAdded).format('MMMM Do YYYY, h:mm:ss a');
     	// append added city and cleanTime to Table
-    	$(".added-city").append("<tr>+<td>" + childSnapshot.val().city + "<td>" + cleanTime + "<td>");
+    	$(".added-city").html("<tr>+<td>" + childSnapshot.val().city + "<td>" + cleanTime + "<td>");
     });
 
 });
